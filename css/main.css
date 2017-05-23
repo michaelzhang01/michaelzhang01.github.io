@@ -1,11 +1,11 @@
 #social-media img {
     display: inline-block;
     height:auto;
-    max-width: 33%;
     width: auto;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 #seal img{
     display: block;
@@ -70,9 +70,9 @@ h2 {
 
 
 body {
-    padding-left:100px;
-	padding-right:00px;
-    margin: 30px 20%;
+    padding-left:20%;
+	padding-right:20%;
+    margin: 0%;
     font-family: serif;
     font-size: 1.3125em;
 }
@@ -85,9 +85,9 @@ hr {
 div#sidebar {
    position:fixed;   
    height:100%;
-   width:200px; 
-   top:0;
-   left:0;
+   width:15%; 
+   top:0%;
+   left:0%;
    background:white; 
    color: black;
    text-align: center;

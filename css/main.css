@@ -17,9 +17,17 @@
 }
 
 #sidebar ul {
-    list-style: none; 
+    list-style-type: none;
     padding: 0;
+    margin: 0;
 } 
+
+#sidebar li {
+    display:block;
+    margin: 0 100px 0 100px;   
+} 
+
+
 
 #sidebar a:link {
     text-decoration: none;
@@ -84,14 +92,14 @@ hr {
 
 
 div#sidebar {
-   position:fixed;   
+   position:float;   
    height:100%;
-   width:15%; 
+/*   width:15%; */
    top:0%;
    left:0%;
    background:white; 
    color: black;
-   text-align: center;
+/*   text-align: center; */
 }
 div#content {
     background:white;

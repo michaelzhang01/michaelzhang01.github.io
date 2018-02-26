@@ -130,6 +130,6 @@ div#content {
     div#sidebar {padding-top: 10px;
                 width:100px;}
     /*div#sidebar li {font-size: 18px;}*/
-    body { font-size: 1em; margin-left:40px; margin-right:5px}
+    body { font-size: 1em; margin-left:40px; margin-right:1px}
     h1{font-size:1.1em}
 }   

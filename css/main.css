@@ -130,7 +130,7 @@ div#content {
     div#sidebar {padding-top: 10px;
                 width:100px;}
     /*div#sidebar li {font-size: 18px;}*/
-    body { font-size: 1em; margin-left:40px; margin-right:40px;}
+    body { font-size: 1em; margin-left:40px; margin-right:5px;}
     h1{font-size:1.1em}
-    div#content {text-align: left}
+    /*div#content {text-align: left}*/
 }   

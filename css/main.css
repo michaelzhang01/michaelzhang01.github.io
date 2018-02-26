@@ -126,7 +126,7 @@ div#content {
     text-align: justify;
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (device-width: 700px) {
     div#sidebar {padding-top: 10px;
                 width:100px;}
     /*div#sidebar li {font-size: 18px;}*/

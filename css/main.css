@@ -89,7 +89,6 @@ body {
     margin: 0%;*/
     font-family: serif;
     font-size: 1.3125em;
-
     margin-left: 200px; /* Same as the width of the sidenav */
     margin-right: 200px; /* Same as the width of the sidenav */
     padding: 0px 70px;
@@ -128,6 +127,9 @@ div#content {
 }
 
 @media screen and (max-height: 450px) {
-    div#sidebar {padding-top: 15px;}
-    div#sidebar li {font-size: 18px;}
-}
+    div#sidebar {padding-top: 10px;
+                width:100px;}
+    /*div#sidebar li {font-size: 18px;}*/
+    body { font-size: 1em; margin-left:40px; margin-right:5px}
+    h1{font-size:1.1em}
+}   

@@ -29,7 +29,7 @@
 #sidebar ul {
     list-style-type: none;
     padding: 0;
-    margin: 30px;
+    margin: 20px;
 } 
 
 #sidebar li {
@@ -143,6 +143,8 @@ div#content {
     body { font-size: .95em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
     h1{font-size:1.1em}
     #sidebar ul {margin: 0;}
+    #seal img{    max-width: 75%;}
+
 
     /*div#content {text-align: left}*/
 }   

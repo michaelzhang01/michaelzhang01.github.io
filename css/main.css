@@ -20,11 +20,23 @@
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+    max-width: 80%;
+    /*width: auto\9; /* ie8   */
+    /*width:inherit;*/    
+}
+
+
+#profile img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     max-width: 100%;
     /*width: auto\9; /* ie8   */
-    /*width:inherit;*/
-    
+    /*width:inherit;*/    
 }
+
 
 #sidebar ul {
     list-style-type: none;
@@ -99,8 +111,8 @@ body {
     margin: 0%;*/
     font-family: serif;
     font-size: 1.3125em;
-    margin-left: 200px; /* Same as the width of the sidenav */
-    margin-right: 200px; /* Same as the width of the sidenav */
+    margin-left: 300px; /* Same as the width of the sidenav */
+    margin-right: 300px; /* Same as the width of the sidenav */
     padding: 0px 70px;
 }
 
@@ -119,14 +131,14 @@ div#sidebar {
    color: black;
    text-align: center;*/
     height: 100%;
-    width: 200px;
+    width: 300px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: #FFFFFF;
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 0px;
     text-align: center;
 }
 div#content {
@@ -140,7 +152,7 @@ div#content {
     div#sidebar {padding-top: 10px;
                 width:100px;}
     /*div#sidebar li {font-size: 18px;}*/
-    body { font-size: .95em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
+    body { font-size: .90em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
     h1{font-size:1.1em}
     #sidebar ul {margin: 0;}
     #seal img{    max-width: 75%;}

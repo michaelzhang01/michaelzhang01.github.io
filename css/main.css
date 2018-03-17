@@ -149,8 +149,7 @@ div#content {
 }
 
 @media screen and (max-device-width: 500px) {
-    div#sidebar {padding-top: 10px;
-                width:100px;}
+    div#sidebar {width:100px;}
     /*div#sidebar li {font-size: 18px;}*/
     body { font-size: .90em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
     h1{font-size:1.1em}

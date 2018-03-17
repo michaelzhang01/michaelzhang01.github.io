@@ -1,3 +1,10 @@
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
 #social-media img {
     display: inline-block;
     height:auto;
@@ -9,17 +16,20 @@
 
 #seal img{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
     max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8   */
-    width:inherit;
+    /*width: auto\9; /* ie8   */
+    /*width:inherit;*/
     
 }
 
 #sidebar ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 30px;
 } 
 
 #sidebar li {

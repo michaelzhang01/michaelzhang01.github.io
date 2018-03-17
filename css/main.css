@@ -142,5 +142,7 @@ div#content {
     /*div#sidebar li {font-size: 18px;}*/
     body { font-size: .95em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
     h1{font-size:1.1em}
+    #sidebar ul {margin: 0;}
+
     /*div#content {text-align: left}*/
 }   

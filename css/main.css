@@ -151,7 +151,7 @@ div#content {
 @media screen and (max-device-width: 500px) {
     div#sidebar {width:100px;}
     /*div#sidebar li {font-size: 18px;}*/
-    body { font-size: .90em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
+    body { font-size: .85em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
     h1{font-size:1.1em}
     #sidebar ul {margin: 0;}
     #seal img{    max-width: 75%;}

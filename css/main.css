@@ -150,11 +150,11 @@ div#content {
 }
 
 @media screen and (max-device-width: 500px) or (max-width: 700px) {
-    div#sidebar {width:10%;}
-    body { font-size: .80em; margin-left:10%; margin-right:10%;     padding: 0px 60px;}
+    div#sidebar {width:100px;}
+    /*body { font-size: .80em; margin-left:10%; margin-right:10%;     padding: 0px 60px;}*/
 
     /*div#sidebar li {font-size: 18px;}*/
-    /*body { font-size: .80em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}*/
+    body { font-size: .80em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
     h1{font-size:1.0em}
     #sidebar ul {margin: 0;}
     #seal img{    max-width: 75%;}
@@ -163,3 +163,16 @@ div#content {
 
     /*div#content {text-align: left}*/
 }   
+
+@media screen and  (max-height: 700px) {
+    div#sidebar {width:100px;}
+    /*div#sidebar li {font-size: 18px;}*/
+    body { font-size: .80em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
+    h1{font-size:1.0em}
+    #sidebar ul {margin: 0;}
+    #seal img{    max-width: 75%;}
+    #social-media img {width: 15%;}
+
+
+    /*div#content {text-align: left}*/
+} 

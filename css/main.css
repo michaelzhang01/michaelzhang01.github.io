@@ -150,11 +150,11 @@ div#content {
 }
 
 @media screen and (max-device-width: 500px) or (max-width: 700px) {
-    div#sidebar {width:100px;}
+    div#sidebar {width:20%;}
     /*body { font-size: .80em; margin-left:10%; margin-right:10%;     padding: 0px 60px;}*/
 
     /*div#sidebar li {font-size: 18px;}*/
-    body { font-size: .80em; margin-left:40px; margin-right:5px;     padding: 0px 60px;}
+    body { font-size: .80em; margin-left:8%; margin-right:1%;     padding: 0px 60px;}
     h1{font-size:1.0em}
     #sidebar ul {margin: 0;}
     #seal img{    max-width: 75%;}
